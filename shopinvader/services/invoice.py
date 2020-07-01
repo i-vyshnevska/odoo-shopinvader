@@ -4,10 +4,6 @@ import mimetypes
 import time
 
 from odoo import _
-from odoo.addons.base_rest.components.service import (
-    skip_secure_response,
-    to_int,
-)
 from odoo.addons.component.core import Component
 from odoo.osv import expression
 from odoo.tools.safe_eval import safe_eval
